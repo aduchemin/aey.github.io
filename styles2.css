@@ -2,7 +2,7 @@
     background-color: black;
 }
 body {
-    color: #ffa96b ;
+    color: #ffffff ;
     font-family: Arial, sans-serif;
     font-style: italic;
 }
@@ -10,9 +10,13 @@ h1 {
 	color: LightCyan ;
   font-size: 50px
 }
+
+
 A.class1 {color:LightCyan ;}
 A.class1:link  {text-decoration: none; color: LightCyan ;}
 A.class1:visited {text-decoration: none; color: LightCyan ;}
+
+p.solid {border-style: solid;}
 
 a, a:visited {
 	color: Crimson;
@@ -29,4 +33,18 @@ h1, p {
 }
 p {
   color: Crimson
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 8px solid Crimson;
+    text-align: center;
+
+}
+
+tr:nth-child(even) {
+    background-color: Crimson;
 }
